@@ -1,0 +1,456 @@
+/********/
+/* BODY */
+/********/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "raleway", Arial, Helvetica, sans-serif;
+  background-image: url(/images/Enfants-Afrique-Accueil.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*********************/
+/* EFFETS PERMANENTS */
+/*********************/
+
+.lettreBleu {
+  color: #103aff;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/*****************/
+/* BARRE DE MENU */
+/*****************/
+
+nav {
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px #d3d3d3;
+  width: 100%;
+  z-index: 1000;
+}
+
+.topnav {
+  overflow: hidden;
+  box-shadow: 5px 5px 15px #d3d3d3;
+}
+
+.topnav a {
+  text-align: center;
+  padding: 14px 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "raleway", Arial, Helvetica, sans-serif;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.topnav a:hover {
+  background-color: #cfcccc;
+  color: #fff;
+  border-radius: 30px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  transition: 1s;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+nav.scroll ul {
+  background: #000;
+}
+
+nav.scroll ul li a {
+  color: #fff;
+}
+
+.logosite {
+  position: fixed;
+  float: left;
+  color: #000;
+  margin: 5px 60px;
+}
+
+.logosite:hover {
+  transition-duration: 00.4s;
+  transform: scale(1.2);
+}
+
+.TailleLogo {
+  width: 60px;
+  height: 60px;
+}
+
+.logocolombe {
+  position: fixed;
+  float: right;
+  color: #fff;
+  margin: 3px 1470px;
+}
+
+/**********************/
+/* ECRAN DE BIENVENUE */
+/**********************/
+
+header {
+  width: 100%;
+  height: 100vh;
+  border-bottom: #fff solid 4px;
+}
+
+.bienvenue {
+  padding-top: 10%;
+  padding-left: 13%;
+  font-size: 50px;
+  color: #79d2e6;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-name: glissement;
+  animation-iteration-count: calc(1);
+}
+
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.panneau {
+  float: left;
+  width: 600px;
+  height: 325px;
+  margin-left: 500px;
+  margin-top: 45px;
+}
+
+.contenuPanneau {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #79d2e6;
+  margin: 20px;
+  backdrop-filter: blur(15px);
+}
+
+.titreh2 {
+  font-size: 30px;
+  color: #79d2e6;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+  margin-top: 15px;
+}
+
+.image {
+  width: 140px;
+  height: 150px;
+  box-shadow: #000 0.1em 0.1em 0.2em;
+  margin-top: 40px;
+}
+
+.titreh3 {
+  font-size: 12px;
+  color: #fff;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+  margin-top: 15px;
+}
+
+.titreh5 {
+  font-size: 10px;
+  color: #fff;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/**********************************/
+/* BOITE CHOIX FRANCAIS / ANGLAIS */
+/**********************************/
+
+.boite {
+  position: absolute;
+  float: left;
+  top: 90%;
+  left: 100px;
+  padding: 10px;
+  border: 2px solid #79d2e6;
+  width: 100px;
+  height: 20px;
+}
+
+.sizeflag {
+  width: 50px;
+  height: 40px;
+}
+
+.flagfr {
+  position: absolute;
+  float: right;
+  right: 65px;
+  top: 2px;
+}
+
+.flagfr:hover {
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
+
+.flagen {
+  position: absolute;
+  float: right;
+  right: 10px;
+  top: 0px;
+}
+
+.flagen:hover {
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
+
+/************************/
+/* SECTON INTERMEDIAIRE */
+/************************/
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 380px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+}
+
+.blocktexte {
+  padding: 0;
+  margin-bottom: 60px;
+  color: #262626;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+
+.mama-esther-image {
+  margin-left: 300px;
+}
+
+.presentation {
+  font-size: 14px;
+}
+
+.titre-assos {
+  font-size: 40px;
+  letter-spacing: 4px;
+  padding: 0;
+  margin: 0;
+}
+
+.texte {
+  margin-right: 300px;
+  text-align: justify;
+}
+
+.buttonsavoir {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 25px;
+  width: 180px;
+  height: 50px;
+  color: #fff;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+  background-color: #79d2e6;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.buttonsavoir:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #79d2e6;
+  border: #79d2e6 solid 2px;
+}
+
+/**********/
+/* FOOTER */
+/**********/
+
+.tailleFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin-top: 60px;
+  background-color: #302d2d;
+  color: #fff;
+  border-top: #fff solid 4px;
+}
+
+.Coordonnees {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+
+.email {
+  margin-right: 10px;
+}
+
+.liensUtiles {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+
+.suiveznous {
+  display: flex;
+  flex-direction: column;
+}
+
+.hautPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60px;
+  height: 70px;
+  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+}
+
+.hautPage:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: #79d2e6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #79d2e6;
+  transform: scale(1.05);
+}
+
+.facebook i:hover {
+  color: #3b5998;
+  transform: scale(1.1);
+}
+
+.youtube i:hover {
+  color: #c4302b;
+  transform: scale(1.1);
+}
+
+.WhatsApp {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.WhatsApp i:hover {
+  color: #25d366;
+  transform: scale(1.1);
+}
+
+.instagram:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.foottitreh3 {
+  color: #79d2e6;
+  font-size: 20px;
+  margin-left: 0;
+  margin-bottom: 20px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.logoSuivez {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0px;
+  text-align: center;
+  background: #302d2d;
+  height: 10vh;
+  border-bottom: #fff solid 4px;
+}
+
+.to-top {
+  color: #79d2e6;
+  padding-top: 1.8em;
+  display: inline-block; /* or block */
+  position: relative;
+  border-color: #fff;
+  transition: all 0.3s ease-out;
+  font-size: 150%;
+}
+
+.to-top:before {
+  content: "▲";
+  font-size: 1.2em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -0.7em;
+  border: solid 0.13em #fff;
+  border-radius: 20em;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.3em;
+  border-color: inherit;
+  transition: transform 0.5s ease-in;
+}
+.to-top:hover {
+  color: #fff;
+  border-color: #79d2e6;
+}
+.to-top:hover:before {
+  transform: rotate(360deg);
+}

@@ -1,0 +1,341 @@
+/********/
+/* BODY */
+/********/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "raleway", Arial, Helvetica, sans-serif;
+}
+
+/*********************/
+/* EFFETS PERMANENTS */
+/*********************/
+
+.lettreBleu {
+  color: #79d2e6;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/**********/
+/* LIGNES */
+/**********/
+
+hr {
+  border: none;
+  background-color: bisque;
+  border-top: 3px double #79d2e6;
+  color: #000;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 100%;
+  height: 7px;
+}
+
+hr:after {
+  background: transparent;
+  font-family: Webdings;
+  content: "";
+  font-size: 30px;
+  font: bold;
+  padding: 0 4px;
+  position: relative;
+  top: -10px;
+  color: #000;
+}
+
+/*****************/
+/* BARRE DE MENU */
+/*****************/
+
+nav {
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px #d3d3d3;
+  width: 100%;
+  z-index: 1000;
+}
+
+.topnav {
+  overflow: hidden;
+  box-shadow: 5px 5px 15px #d3d3d3;
+}
+
+.topnav a {
+  text-align: center;
+  padding: 14px 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "raleway", Arial, Helvetica, sans-serif;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.topnav a:hover {
+  background-color: #cfcccc;
+  color: #fff;
+  border-radius: 30px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  transition: 1s;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+nav.scroll ul {
+  background: #000;
+}
+
+nav.scroll ul li a {
+  color: #fff;
+}
+
+.logosite {
+  position: fixed;
+  float: left;
+  color: #000;
+  margin: 5px 60px;
+}
+
+.logosite:hover {
+  transition-duration: 00.4s;
+  transform: scale(1.2);
+}
+
+.TailleLogo {
+  width: 60px;
+  height: 60px;
+}
+
+.logocolombe {
+  position: fixed;
+  float: right;
+  color: #fff;
+  margin: 3px 1470px;
+}
+
+/****************************/
+/*         DIAPORAMA        */
+/****************************/
+
+.diaporama {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+  height: 19em;
+}
+
+figure .image_presentation {
+  width: 150px;
+  height: 150px;
+}
+
+/*****************/
+/* SECTION TEXTE */
+/*****************/
+
+article {
+  width: 94%;
+  height: 200vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.presentation {
+  padding-top: 100px;
+  margin-left: 600px;
+  font-size: 50px;
+}
+
+.texte {
+  margin: 50px;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.lettrine::first-letter {
+  font-family: "British Museum 1490", sans-serif;
+  font-size: 2.5em;
+  padding-right: 0.1em;
+  color: #79d2e6;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/**********/
+/* FOOTER */
+/**********/
+
+.tailleFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin-top: 60px;
+  background-color: #302d2d;
+  color: #fff;
+  border-top: #fff solid 4px;
+}
+
+.Coordonnees {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+
+.email {
+  margin-right: 10px;
+}
+
+.liensUtiles {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+
+.suiveznous {
+  display: flex;
+  flex-direction: column;
+}
+
+.hautPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60px;
+  height: 70px;
+  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+}
+
+.hautPage:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: #79d2e6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #79d2e6;
+  transform: scale(1.05);
+}
+
+.facebook i:hover {
+  color: #3b5998;
+  transform: scale(1.1);
+}
+
+.youtube i:hover {
+  color: #c4302b;
+  transform: scale(1.1);
+}
+
+.WhatsApp {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.WhatsApp i:hover {
+  color: #25d366;
+  transform: scale(1.1);
+}
+
+.instagram:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.foottitreh3 {
+  color: #79d2e6;
+  font-size: 20px;
+  margin-left: 0;
+  margin-bottom: 20px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.logoSuivez {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0px;
+  text-align: center;
+  background: #302d2d;
+  height: 10vh;
+  border-bottom: #fff solid 4px;
+}
+
+.to-top {
+  color: #79d2e6;
+  padding-top: 1.8em;
+  display: inline-block; /* or block */
+  position: relative;
+  border-color: #fff;
+  transition: all 0.3s ease-out;
+  font-size: 150%;
+}
+
+.to-top:before {
+  content: "▲";
+  font-size: 1.2em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -0.7em;
+  border: solid 0.13em #fff;
+  border-radius: 20em;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.3em;
+  border-color: inherit;
+  transition: transform 0.5s ease-in;
+}
+.to-top:hover {
+  color: #fff;
+  border-color: #79d2e6;
+}
+.to-top:hover:before {
+  transform: rotate(360deg);
+}
