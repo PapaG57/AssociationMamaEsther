@@ -21,15 +21,6 @@ body {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
 /*****************/
 /* BARRE DE MENU */
 /*****************/
@@ -123,7 +114,7 @@ header {
 }
 
 .bienvenue {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-left: 13%;
   font-size: 50px;
   color: #79d2e6;
@@ -150,7 +141,6 @@ header {
   width: 600px;
   height: 325px;
   margin-left: 500px;
-  margin-top: 45px;
 }
 
 .contenuPanneau {
@@ -301,9 +291,9 @@ header {
   border: #79d2e6 solid 2px;
 }
 
-/**********/
-/* FOOTER */
-/**********/
+/****************************/
+/*          FOOTER          */
+/****************************/
 
 .tailleFooter {
   display: flex;
@@ -318,7 +308,7 @@ header {
 .Coordonnees {
   display: flex;
   flex-direction: column;
-  line-height: 25px;
+  line-height: 10px;
 }
 
 .email {
@@ -328,7 +318,7 @@ header {
 .liensUtiles {
   display: flex;
   flex-direction: column;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .suiveznous {
@@ -414,12 +404,15 @@ a:hover {
 .copyright {
   color: #fff;
   font-size: 18px;
-  font-weight: 700;
-  margin-top: 0px;
   text-align: center;
   background: #302d2d;
   height: 10vh;
   border-bottom: #fff solid 4px;
+}
+
+.copyright h5 {
+  margin: 0;
+  bottom: 0;
 }
 
 .to-top {
