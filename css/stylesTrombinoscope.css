@@ -244,7 +244,7 @@ hr:after {
 }
 
 /****************************/
-/*          RETOUR          */
+/*      BOUTON  RETOUR      */
 /****************************/
 
 .bouton_retour {
@@ -266,10 +266,6 @@ button {
   box-shadow: -1px 6px 10px #737373, 0px 0px 0px #737373;
   font-size: 1.2em;
   font-weight: bold;
-  transition-duration: 1s;
-}
-
-button:hover {
   cursor: pointer;
 }
 
