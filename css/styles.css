@@ -227,6 +227,24 @@ header {
 }
 
 /************************/
+/*   VERS BAS DE PAGE   */
+/************************/
+
+.page-cover .scroll-to-content {
+  background: url(/themes/custom/wwf_main_theme/components/page-cover/images/scroll-icon.svg)
+    no-repeat center center;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  bottom: 9%;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 1;
+}
+
+/************************/
 /* SECTON INTERMEDIAIRE */
 /************************/
 
