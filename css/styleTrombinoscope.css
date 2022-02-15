@@ -231,14 +231,21 @@ hr:after {
 }
 
 .texte_bloc_img p {
-  font-size: 0.8em;
+  font-size: 1em;
+}
+
+.blink {
+  background-color: yellow;
+  text-decoration: none;
+  color: #000;
+  text-decoration: blink;
 }
 
 .texte_bloc_img_2 {
   margin-top: 20px;
   padding: 0 50px;
   width: 40%;
-  font-size: 0.8em;
+  font-size: 1em;
   line-height: 1.5em;
   text-align: justify;
 }
