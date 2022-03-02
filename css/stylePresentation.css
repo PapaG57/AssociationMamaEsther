@@ -272,14 +272,15 @@ article {
   font-size: 19px;
   line-height: 30px;
   text-align: justify;
+  text-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
 .lettrine::first-letter {
-  font-family: "British Museum 1490", sans-serif;
+  font-family: "Diplomata", sans-serif;
   font-size: 2.5em;
   padding-right: 0.1em;
   color: #79d2e6;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
 /****************************/
