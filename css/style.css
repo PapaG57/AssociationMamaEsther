@@ -286,7 +286,6 @@ header {
   color: #fff;
   border-radius: 5px;
   text-shadow: #000 0.1em 0.1em 0.2em;
-  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
   background-color: #79d2e6;
   border: 0;
   text-transform: uppercase;
@@ -294,10 +293,7 @@ header {
 
 .buttonsavoir:hover {
   cursor: pointer;
-  background-color: #fff;
-  color: #79d2e6;
-  border-radius: 5px;
-  border: #79d2e6 solid 2px;
+  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
 /****************************/
@@ -371,11 +367,13 @@ a:hover {
 .facebook i:hover {
   color: #3b5998;
   transform: scale(1.1);
+  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
 .youtube i:hover {
   color: #c4302b;
   transform: scale(1.1);
+  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
 .WhatsApp {
@@ -387,11 +385,13 @@ a:hover {
 .WhatsApp i:hover {
   color: #25d366;
   transform: scale(1.1);
+  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
 .instagram:hover {
   opacity: 0.8;
   transform: scale(1.1);
+  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
 .foottitreh3 {

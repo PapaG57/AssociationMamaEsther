@@ -270,9 +270,12 @@ button {
   border: 0;
   border-radius: 30px;
   text-shadow: #000 0.1em 0.1em 0.2em;
-  box-shadow: -1px 6px 10px #737373, 0px 0px 0px #737373;
   font-size: 1.2em;
   font-weight: bold;
+}
+
+button:hover {
+  box-shadow: -1px 6px 10px #737373, 0px 0px 0px #737373;
   cursor: pointer;
 }
 
