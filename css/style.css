@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "raleway", Arial, Helvetica, sans-serif;
+  font-family: 'raleway', Arial, Helvetica, sans-serif;
   background-image: url(/images/Enfants-Afrique-Accueil.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,7 +43,7 @@ nav {
   padding: 14px 5px;
   text-decoration: none;
   font-size: 18px;
-  font-family: "raleway", Arial, Helvetica, sans-serif;
+  font-family: 'raleway', Arial, Helvetica, sans-serif;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
@@ -367,31 +367,28 @@ a:hover {
 .facebook i:hover {
   color: #3b5998;
   transform: scale(1.1);
-  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
 .youtube i:hover {
   color: #c4302b;
   transform: scale(1.1);
-  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
-}
-
-.WhatsApp {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
 .WhatsApp i:hover {
   color: #25d366;
   transform: scale(1.1);
-  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
-.instagram:hover {
-  opacity: 0.8;
+.instagram i:hover {
+  color: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   transform: scale(1.1);
-  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
 .foottitreh3 {
@@ -435,7 +432,7 @@ a:hover {
 }
 
 .to-top:before {
-  content: "▲";
+  content: '▲';
   font-size: 1.2em;
   position: absolute;
   top: 0;

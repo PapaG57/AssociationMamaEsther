@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "raleway", Arial, Helvetica, sans-serif;
+  font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
 /*********************/
@@ -39,7 +39,7 @@ nav {
   padding: 14px 5px;
   text-decoration: none;
   font-size: 18px;
-  font-family: "raleway", Arial, Helvetica, sans-serif;
+  font-family: 'raleway', Arial, Helvetica, sans-serif;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
@@ -129,7 +129,7 @@ hr {
 hr:after {
   background: transparent;
   font-family: Webdings;
-  content: "";
+  content: '';
   font-size: 30px;
   font: bold;
   padding: 0 4px;
@@ -151,7 +151,7 @@ hr:after {
 }
 
 figure.effet {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: 'Raleway', Arial, sans-serif;
   color: #fff;
   position: relative;
   overflow: hidden;
@@ -161,7 +161,8 @@ figure.effet {
   max-height: 220px;
   width: 100%;
   background: #000000;
-  box-shadow: 3px 8px 8px #bfbfbf;
+  box-shadow: 0 16px 32px -16px rgba(7, 29, 43, 0.16),
+    0 8px 32px -8px rgba(0, 112, 246, 0.4);
   text-align: center;
 }
 
@@ -193,7 +194,7 @@ figure.effet figcaption::before {
   left: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.8);
   border-bottom: 1px solid rgba(255, 255, 255, 0.8);
-  content: "";
+  content: '';
   opacity: 0;
   background-color: #ffffff;
   transition: all 0.4s;
@@ -276,7 +277,7 @@ article {
 }
 
 .lettrine::first-letter {
-  font-family: "Diplomata", sans-serif;
+  font-family: 'Diplomata', sans-serif;
   font-size: 2.5em;
   padding-right: 0.1em;
   color: #79d2e6;
@@ -418,7 +419,7 @@ a:hover {
 }
 
 .to-top:before {
-  content: "▲";
+  content: '▲';
   font-size: 1.2em;
   position: absolute;
   top: 0;
