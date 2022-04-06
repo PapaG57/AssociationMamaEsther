@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'raleway', Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
 }
 
 /*********************/
@@ -137,6 +138,16 @@ hr:after {
   top: -10px;
   color: #000;
 }
+
+/****************************/
+/*         DIAPORAMA        */
+/****************************/
+
+.carte_visite {
+  display: flex;
+  justify-content: center;
+}
+
 /****************************/
 /*         DIAPORAMA        */
 /****************************/

@@ -1,0 +1,71 @@
+/********/
+/* BODY */
+/********/
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  font-family: 'raleway', Arial, Helvetica, sans-serif;
+  background-image: url(/images/Enfants-Afrique-Accueil-2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*********************/
+/* EFFETS PERMANENTS */
+/*********************/
+
+.lettreBleu {
+  color: #79d2e6;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/**********************/
+/*  CORPS DE LA PAGE  */
+/**********************/
+
+.under_construction {
+  text-align: center;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+/* IMAGES EN CONSTRUCTION */
+
+.img_under_contruction {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+/* BOUTON RETOUR A L'ACCUEIL */
+
+.bouton_retour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+button {
+  background-color: #79d2e6;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 20px;
+  border: 0;
+  border-radius: 30px;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+button:hover {
+  box-shadow: -1px 6px 10px #737373, 0px 0px 0px #737373;
+  cursor: pointer;
+}

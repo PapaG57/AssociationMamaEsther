@@ -230,10 +230,6 @@ header {
 }
 
 /************************/
-/*   VERS BAS DE PAGE   */
-/************************/
-
-/************************/
 /* SECTON INTERMEDIAIRE */
 /************************/
 
@@ -329,21 +325,6 @@ header {
 .suiveznous {
   display: flex;
   flex-direction: column;
-}
-
-.hautPage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 60px;
-  height: 70px;
-  box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
-}
-
-.hautPage:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-  background-color: #79d2e6;
 }
 
 ul {
